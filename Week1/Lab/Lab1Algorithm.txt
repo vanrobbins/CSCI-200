@@ -1,0 +1,42 @@
+Problem Description-
+
+Write a program that introduces my self. The program will show my name, major, job and hobbies. 
+The output will also include a V like the first letter of my name.
+The special character "-" is used to create a list of my interests, and the special character "#" is used to create the V.
+
+
+Algorithm-
+1. A single line comment to describe the file
+2. A block comment to explain details of the file
+3. Use print() to print introduction and a V on the outside
+	a. Within print function (), go to next line and use ''' instead of " so can put entire intro and V in one print function instead of 9.
+		I. Print 64 spaces then ####. Print 18 spaces then ####. These form the top of the V.
+		II. On next line print "Hello, I am Van Robbins. I am a computer science major at IUI." 
+		Then 3 spaces ### or so that the # on the right lines up with the right # above, 18 spaces ### or so that the # on the left lines up with the left # above.
+		III. On next line print "Besides school, I currently work at a restaurant." 
+			Then, 17 spaces then ### or so that the # on the left lines up with the middle of the corresponding #'s above.
+			Finally, 16 spaces then ### or so that the # on the right lines up with the middle of the corresponding #'s above. 
+		IV. On next line print "I also enjoy discovering new:" 
+			Then, 38 spaces then ### or so that the # on the left lines up with the middle of the corresponding #'s above. 
+			Finally, 14 spaces then ### or so that the # on the right lines up with the middle of the corresponding #'s above.
+		V. On next line print a space a dash and "Music" 
+			Then, 61 spaces then ### or so that the # on the left lines up with the middle of the corresponding #'s above
+			Finally, 12 spaces then ### or so that the # on the right lines up with the middle of the corresponding #'s above. 
+		VI. On next line print a space a dash and "TV Shows" 
+			Then, 59 spaces then ### or so that the # on the left lines up with the middle of the corresponding #'s above.
+			Finally, 10 spaces then ### or so that the # on the right lines up with the middle of the corresponding #'s above. 
+		V. On next line print a space a dash and "Films" 
+			Then, 63 spaces then ### or so that the # on the left lines up with the middle of the corresponding #'s above
+			Finally, 8 spaces then ### or so that the # on the right lines up with the middle of the corresponding #'s above. 
+		VI. On next line print a space a dash and "Books" 
+			Then, 64 spaces then ### or so that the # on the left lines up with the middle of the corresponding #'s above.
+			Finally, 6 spaces then ### or so that the # on the right lines up with the middle of the corresponding #'s above. 
+		VII. On next line print "Recently, I have been exploring new sports and activities." 
+			Then, 14 spaces then ### or so that the # on the left lines up with the middle of the corresponding #'s above.
+			Finally, 4 spaces then ### or so that the # on the right lines up with the middle of the corresponding #'s above. 
+		VIII. On next line print "I look forward to completing this class with everyone!." 
+			Then, 19 spaces then ### or so that the # on the left lines up with the middle of the corresponding #'s above.
+			Finally, 2 spaces then ### or so that the # on the right lines up with the middle of the corresponding #'s above. 
+		IX. On next line print 74 spaces and ###### or so that the outside #'s line up with the middle ###'s above to complete the V.
+	b. Go to next line and type ''' to signify end of string. Go to next line and type ); to close print function
+
