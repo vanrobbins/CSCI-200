@@ -19,7 +19,7 @@
 - [Week 15](#week-15)
 - [Week 16](#week-16)
 
-## Week 1: Algorithms and Basics Printing
+## Week 1: Algorithms and Basics Printing{#week-1}
 
 [Demo Files](Week1/DemoFiles/)
 
@@ -27,7 +27,7 @@
 
 [Lab](Week1/Lab)
 
-## Week 2: Variables Commenting and Debugging/Errors
+## Week 2: Variables Commenting and Debugging/Errors{#week-2}
 
  [Demo Files](Week2/DemoFiles/)
 
@@ -35,7 +35,7 @@
 
  [Lab](Week2/Lab)
 
-## Week 3
+## Week 3{#week-3}
 
  [Demo Files](Week3/DemoFiles/)
 
@@ -43,7 +43,7 @@
 
  [Lab](Week3/Lab)
 
-## Week 4
+## Week 4{#week-4}
 
  [Demo Files](Week4/DemoFiles/)
 
@@ -51,7 +51,7 @@
 
  [Lab](Week5/Lab)
 
-## Week 5
+## Week 5{#week-5}
 
  [Demo Files](Week5/DemoFiles/)
 
@@ -59,7 +59,7 @@
 
  [Lab](Week5/Lab)
 
-## Week 6
+## Week 6{#week-6}
 
  [Demo Files](Week6/DemoFiles/)
 
@@ -67,7 +67,7 @@
 
  [Lab](Week6/Lab)
 
-## Week 7
+## Week 7{#week-7}
 
  [Demo Files](Week7/DemoFiles/)
 
@@ -75,7 +75,7 @@
 
  [Lab](Week7/Lab)
 
-## Week 8
+## Week 8{#week-8}
 
  [Demo Files](Week8/DemoFiles/)
 
@@ -83,7 +83,7 @@
 
  [Lab](Week8/Lab)
 
-## Week 9
+## Week 9{#week-9}
 
  [Demo Files](Week9/DemoFiles/)
 
@@ -91,7 +91,7 @@
 
  [Lab](Week9/Lab)
 
-## Week 10
+## Week 10{#week-10}
 
  [Demo Files](Week10/DemoFiles/)
 
@@ -99,7 +99,7 @@
 
  [Lab](Week10/Lab)
 
-## Week 11
+## Week 11{#week-11}
 
  [Demo Files](Week11/DemoFiles/)
 
@@ -107,7 +107,7 @@
 
  [Lab](Week11/Lab)
 
-## Week 12
+## Week 12{#week-12}
 
  [Demo Files](Week12/DemoFiles/)
 
@@ -115,7 +115,7 @@
 
  [Lab](Week12/Lab)
 
-## Week 13
+## Week 13{#week-13}
 
  [Demo Files](Week13/DemoFiles/)
 
@@ -123,7 +123,7 @@
 
  [Lab](Week13/Lab)
 
-## Week 14
+## Week 14{#week-14}
 
  [Demo Files](Week14/DemoFiles/)
 
@@ -131,7 +131,7 @@
 
  [Lab](Week14/Lab)
 
-## Week 15
+## Week 15{#week-15}
 
  [Demo Files](Week15/DemoFiles/)
 
@@ -139,7 +139,7 @@
 
  [Lab](Week15/Lab)
 
-## Week 16
+## Week 16{#week-16}
 
  [Demo Files](Week16/DemoFiles/)
 
