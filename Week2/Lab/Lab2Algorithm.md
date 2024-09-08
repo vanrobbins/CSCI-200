@@ -40,8 +40,8 @@ All values must be stored in variables before they are used. The output must be 
       1. Change the equation to equal x, x=(y-b)/m
       2. Y is 0 since it is the x-intercept
       3. Equation is x=-b/m
-      4. In the previous two calculations the values of m and b were found or slope and yinterceptY respectively
+      4. In the previous two calculations the values of m and b were found or slope and yInterceptY respectively so xInterceptX=-yInterceptY/slope
 4. Print out results of the calculations
    1. Set slopeIntEquation to final found equation through cacatination "f(x)=(slope)x+(interceptY)"
-   2. Set message to equal "A linear function passes through the points ({pointAX},{pointAY}) and ({pointBX},{pointBY}). The slope of the function is {slope}.  The Y-intercept of the function is ({yInterceptX},{yInterceptY}) and the X-intercept of the function is ({xInterceptX},{xInterceptY}). The slope intercept form of the function is {slopeIntEquation}."
+   2. Set message to equal "A linear function passes through the points ({pointAX},{pointAY}) and ({pointBX},{pointBY}). The slope of the function is {slope}.  The Y-intercept of the function is ({yInterceptX},{yInterceptY}) and the X-intercept of the function is ({xInterceptX},{xInterceptY}). The slope intercept form of the function is"+{slopeIntEquation}
    3. Print with print(f) the message variable so that the variables are printed properly
