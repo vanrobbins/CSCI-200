@@ -20,10 +20,10 @@ Variables Used In the Order of Creation:
     xInterceptY: The y value of the functions x-intercept or 0
     slopeIntEquation: The found equation given the two points or y=mx+b
     message: Final message that outputs the results
-First Created Date: 9/5/2024
-Last Updated: 9/8/2024
+First Created: 9/5/2024
+Last Updated: 9/10/2024
 Author: Van Robbins
-Version 1.0
+Version 1.1
 """
 
 #Creating Variables and Initiating there values
@@ -36,29 +36,30 @@ differenceX=0; #Difference of Point A and B X values, initiated at 0 calculated 
 slope=0.0; #Slope of the linear function, initiated at 0.0 calculated later
 yInterceptY=0; #Y intercepts Y value, initiated at 0 calculated later
 xInterceptX=0; #X intercepts X value, initiated at 0 calculated later
-yInterceptX=0; #Y intercepts X value or 0
-xInterceptY=0; #X intercepts Y value or 0
+yInterceptX=0; #Y intercepts X value which is always 0
+xInterceptY=0; #X intercepts Y value which is always 0
 slopeIntEquation="y=mx+b" #Slope Intercept Equation base, initiated at y=mx+b m and b values will be found later
-message=""; #Final message to print results, initiated as empty string
+message=print(""); #Final message to print results, initiated as empty print function
 
-#Find Slope
+#Finds Slope
 differenceY=pointAY-pointBY;
 differenceX=pointAX-pointBX;
-slope= differenceY/differenceX;
+slope= differenceY/differenceX; #Slope is equal to rise over run or change of y over change of x
 
-#Find Y Intercept's Y value or b
-yInterceptY= pointAY-(slope*pointAX);
+#Find Y Intercept's Y value or b in y=mx+b
+yInterceptY= pointAY-(slope*pointAX); #set y=mx+b to solve for b, b= Y Intercepts Y value, b=y-mx
 
 #Find X Intercept's X value
-xInterceptX= -yInterceptY/slope
+xInterceptX= -yInterceptY/slope; #set y=mx+b to solve for x when y=0, the X Intercept's X value is equal to x=-b/m when y=0
 
-#Insert Values into equation
-slopeIntEquation=f"y={slope}x{yInterceptY}"
+#Insert Values into slope intercept equation
+slopeIntEquation="f(x)="+str(slope)+"x"+str(yInterceptY);
 
-#Insert message statement
-message=f"""A linear function passes through the points ({pointAX},{pointAY}) and ({pointBX},{pointBY})
+#Sets message statement to print function with full message
+message=print(f"""A linear function passes through the points ({pointAX},{pointAY}) and ({pointBX},{pointBY})
 The slope of the function is {slope}
 The Y-intercept of the function is ({yInterceptX},{yInterceptY}) and the X-intercept of the function is ({xInterceptX},{xInterceptY})
-The slope intercept form of the function is """+slopeIntEquation
+The slope intercept form of the function is {slopeIntEquation}""");
 
-print(message);
+#Calls message
+message;
