@@ -1,0 +1,69 @@
+Sample Algorithm Design using Pseudocodes:
+
+Executable file:
+
+1. import convertGrade file
+
+2. get user keyboards inputs:
+	name = input("what is your name");
+	score = input("hello" + name + "Please enter a percentage score (finish the sentence showing different letter grades ) ....");
+
+3. process score input and output the letter grade
+	#must change score to numeric value
+	score = float(score);
+
+	if score >100 or score < 0
+		print("please enter a valid score");
+	else
+		print("Your letter grade is " + convert function call in the convertGrade file );"
+
+
+
+Utility file:
+
+#an unefficient convert function
+def convert(score)
+	if (score >=90 and score <=100)
+		print("A");
+		print("Great Job!");
+	
+	#a list of other conditions and prints until score>=0
+	...
+
+	if (score >100 or score <=0)
+		print("Please enter a valid value ");
+
+#a better version using nested if/else structures
+def betterConvert(score)
+	#check invalid score first
+	if (score >100 or score <= 0)
+		print("Please enter a valid score.");
+	else
+		if (score >=90 and score <=100)
+			print letter grade and message
+		else
+			#continue with nested if/else until score >= 0
+			...
+			...
+
+#a version similar to the above but using if/elif structure
+def chainConvert(score)
+	#check invalid score first
+	if (score >100 or score <= 0)
+		print("Please enter a valid score.");
+	elif (score >=90 and score <=100)
+		print letter grade and message
+	elif (score >=80 and score <=89)
+	#continue until score >= 0
+	...
+
+
+#a more reusable version, returns a string as output
+def refinedConvert(score)
+	 if (score >100 or score <= 0):
+        	return "Invalid score.";
+    	elif (score >=90 and score <=100): 
+        	return "A";
+	elif ...
+	#continue until score >=0
+	...
