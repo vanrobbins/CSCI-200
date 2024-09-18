@@ -94,7 +94,7 @@ def areaOfCircle(radius):
     a = math.pi * radius ** 2;
     return a;
 
-print("The area is of the circle with radius 2 is " + str(areaOfCircle(2)));
+print(f"The area is of the circle with radius 2 is {areaOfCircle(2)}");
 #The returned value is used as an input to the print() function
 
 #Returned value can be assigned to another variable.

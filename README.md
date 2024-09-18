@@ -4,7 +4,7 @@
 
 - [Week 1: Algorithms and basics printing](#week-1-algorithms-and-basics-printing)
 - [Week 2: Variables Commenting and Debugging/Errors](#week-2-variables-commenting-and-debuggingerrors)
-- [Week 3](#week-3)
+- [Week 3](#week-3-functions)
 - [Week 4](#week-4)
 - [Week 5](#week-5)
 - [Week 6](#week-6)
@@ -35,7 +35,7 @@
 
  [Lab](Week2/Lab)
 
-## Week 3
+## Week 3: Functions
 
  [Demo Files](Week3/DemoFiles/)
 
