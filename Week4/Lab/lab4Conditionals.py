@@ -13,19 +13,19 @@ Variables Used In the Order of Creation:
  shape: local variable in chooseShape is defined to users input 
  validShape: local array in chooseShape stores valid inputs for shape, ensures that users input is a valid 
 First Created: 9/21/2024
-Last Updated: 9/22/2024
+Last Updated: 9/23/2024
 Author: Van Robbins
-Version 0.9
+Version 1.0
 """
 #Import utility file
 import lab4Shapes;
 
 #Function asks user for shape and ensures entry is valid
 def chooseShape():
+    validShape=["1","2","3"];
     print("What shape would you like to draw?");
     shape=input("1| Square\n2| Rectangle\n3| Equilateral Triangle\n");
     #Checks for valid entry
-    validShape=["1","2","3"];
     #Valid entry: Converts to int and sends to makeShape
     if shape in validShape: 
         shape=int(shape);

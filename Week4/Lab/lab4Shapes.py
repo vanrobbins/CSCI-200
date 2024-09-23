@@ -3,10 +3,24 @@ File Name: lab4Shapes
 Purpose: 
     Utility file for lab4Conditionals, defines various functions
 Variables Used In the Order of Creation:
+    selectedShape: is the shape picked by user
+    sizeEq: is the size for a shape that has equal length and width
+    sizeDiff: array that holds length and width of shape
+    wlInput: inputed value from user for shape that has equal length and width
+    wInput: inputed width value from user for shape that has different length and width
+    lInput: inputed length value from user for shape that has different length and width 
+    size: holds value in shapes functions for that is the size and width
+    width: is used in loops to ensure that the correct amount of symbols are printed, used in various functions
+    length: is used in loops to ensure that the correct amount of layers are printed and the correct layer is printed, used in various functions
+    spaceInside: holds the amount of space needed to be printed inside triangle
+    spaceOutside: holds the amount of space needed to be printed outside triangle
+    count: used to count in loops, ensures correct amount of symbols are printed
+    sizeW: used by rectangle holds wInput in function needed because different width and length
+    sizeL: used by rectangle holds lInput in function needed because different width and length
 First Created: 9/21/2024
-Last Updated: 9/21/2024
+Last Updated: 9/23/2024
 Author: Van Robbins
-Version 0.9
+Version 1.0
 """
 #Finds size user wants shape, sends to respective function to make the shape
 def makeShape(selectedShape):
@@ -23,7 +37,6 @@ def makeShape(selectedShape):
             #TRIANGLE
             else:
                 triangle(sizeEq);
-    
     #Rectangle |2
     else:
         sizeDiff = sizeDiffWL(); #Runs function in utility asking user to enter size of width and length3
