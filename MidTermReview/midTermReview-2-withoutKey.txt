@@ -1,0 +1,513 @@
+Quiz 2 :
+
+51. What is the value of c in the following code block?
+a = 2;
+b = 3;
+c = a == b;
+
+a. 2
+b. 3
+c. True
+d. False 
+d
+
+52. What is the output in the following code block?
+a = 2;
+b = 3;
+print(a <= b);
+a. yes
+b. no
+c. 2 >= 3
+d. True 
+d
+
+53. What is the value of d in the following code block?
+a = 2;
+b = 3;
+c = 3;
+d = a == b and b == c;
+
+a. 2
+b. 3
+c. True
+d. False 
+d
+
+53. What is the value of d in the following code block?
+a = 2;
+b = 3;
+c = 3;
+d = a == b or b == c;
+
+a. 2
+b. 3
+c. True 
+d. False 
+C
+
+54. What is the value of e in the following code block?
+a = 2;
+b = 3;
+c = 3;
+d = 4;
+
+e = a < b or b == c and c > d;
+and takes presidence 
+a. 2
+b. 4
+c. True 
+d. False 
+c
+
+55. Does short circuit evaluation happen in the following code block? 
+a = 2;
+b = 3;
+c = 4;
+
+if (a < b or b > c):
+   print(a+b+c);
+
+a. yes 
+b. no
+a
+
+56. Does short circuit evaluation happen in the following code block? 
+a = 2;
+b = 3;
+c = 4;
+
+if (a > b or b > c):
+   print(a+b+c);
+
+a. yes 
+b. no 
+b
+
+57. An "if" structure must be paired with an "else" structure. 
+True
+False 
+f
+
+58. It is possible that an "if" block never runs. 
+True 
+False
+t
+
+59. It is possible that an "else" block never runs. 
+True 
+False
+T
+
+60. It is possible that both "if" block and "else" block get to run. 
+True
+False 
+f
+
+61. Which of the following can get input from a user keyboard entry?
+a. input("What is your name?") 
+b. print("What is your name?")
+c. str("What is your name?")
+d. "What is your name"?
+A
+
+62. what is the type of variable a in the following code block? 
+a = input("Please enter a numeric value");
+
+a. string 
+b. int
+c. float
+d. boolean 
+a
+
+loops and strings
+===================================
+
+
+63. What is the result of the following code block? 
+
+a = 0;
+while (a <= 6):
+	print(a);
+	a = a + 1;
+
+a. 0, 1, 2, 3, 4, 5, 6 
+b. 1, 2, 3, 4, 5, 6
+c. 0, 1, 2,3, 4, 5
+d. 1, 2, 3, 4, 5
+a
+
+64. What is the result of the following code block? 
+
+a = 0;
+while (a < 6):
+	print(a);
+	a = a + 1;
+	
+a. 0, 1, 2, 3, 4, 5, 6 
+b. 1, 2, 3, 4, 5, 6
+c. 0, 1, 2,3, 4, 5 
+d. 1, 2, 3, 4, 5
+c
+
+65. What is the result of the following code block? 
+
+a = 0;
+while (a <= 6):
+	a = a + 1;
+	print(a);
+		
+a. 0, 1, 2, 3, 4, 5, 6 
+b. 1, 2, 3, 4, 5, 6, 7 
+c. 1, 2, 3, 4, 5, 6
+d. 1, 2, 3, 4, 5
+b
+
+66. What is the result of the following code block? 
+
+a = 0;
+while (a <= 6):
+	print(a);
+
+	
+a. 0, 1, 2, 3, 4, 5, 6 
+b. 1, 2, 3, 4, 5, 6
+c. No output
+d. Infinite loop 
+d
+
+67. What is the result of the following code block? 
+
+a = 0;
+while (a >= 6):
+	print(a);
+	
+	
+a. 0, 1, 2, 3, 4, 5, 6 
+b. 1, 2, 3, 4, 5, 6
+c. No output 
+d. Infinite loop 
+c
+
+68. What is the result of the following code block? 
+
+a = 0;
+while True:
+   a = a + 1;
+   if (a == 1):
+	print(a);
+
+a. 0
+b. 1
+c. No output
+d. Infinite loop 
+d
+
+69. What is the result of the following code block? 
+
+a = 0;
+while True:
+   a = a + 1;
+   if (a == 1):
+	print(a);
+	break;
+
+a. 0
+b. 1 
+c. No output
+d. Infinite loop
+b
+
+70. What is the result of the following code block? 
+
+a = 0;
+while True:
+   a = a + 1;
+   if (a == 2):
+	print(a);
+	continue;
+   if (a == 5):
+	print(a);
+	break;
+   print(a);
+continue- skip the rest of the systems in this iteration 
+a. 1, 2, 3, 4, 5 
+b. 1, 2, 3, 4
+c. 2, 5
+d. Infinite loop  
+A
+
+71. What is the length of the variable a? 
+a = "Computing I";
+a. 10
+b. 11  
+c. 12
+d. 13
+b
+
+72. What is the value of variable b?
+a = "Computing I";
+b = a[1];
+
+a. C
+b. o 
+c. t
+d. I
+b
+
+73. What is the ouput of the following code block? 
+a = "Computing I";
+index = 0;
+while (index < len(a)):
+    letter = a[index];
+    print(letter);
+    index = index + 2;
+
+0, 2, 4, 6, 8, 10, 
+a. Computing I
+b. Cmuig I 
+c. optnI
+d. No output
+b
+
+74. What is the ouput of the following code block? 
+a = "Computing I";
+for i in a:
+	print(i);
+
+a. Computing I 
+b. Cmuig I 
+c. optn I
+d. 0,1,2,3,4,5,6,7,8,9,10
+a
+
+75. What is the ouput of the following code block? 
+a = "Computing I";
+print(a[0:4]);
+a. Computing I 
+b. Com 
+c. Comp 
+d. No output
+c
+
+Lists(Arrays)
+===================================
+
+76. Which of the following creates a list of integer values?
+a. x = [1,2,3,4,5] 
+b. x = ["1","2","3","4","5"]
+c. x = {1,2,3,4,5}
+d. x = (1,2,3,4,5)
+A
+
+77. What is the output of the following lines?
+x = ["Math", "English", "Art"];
+print("The majors are: {}, {}".format(x[1], x[2]));
+
+a. The majors are: English, Art 
+b. The majors are: Math, English
+c. The majors are: Math, Art
+d. The majors are: Math, English, Art
+A
+
+78. What is the output of the following lines?
+x = ["Math", "English", "Art"];
+print("The majors are: {1}, {0}".format(x[0], x[1]));
+
+a. The majors are: English, Art 
+b. The majors are: Art, English 
+c. The majors are: English, Math 
+d. The majors are: Math, English
+C
+
+79. What are the values in list x after the following block finishes running? 
+x = [];
+i = 0;
+while (i < 5):
+	x.append(i);
+	i = i + 1;
+
+a. 0, 1, 2, 3, 4 
+b. 1, 2, 3, 4, 5
+c. 0, 1, 2, 3, 4, 5
+d. No values
+a
+
+80. What are the values in list x after the following block finishes running? 
+x = [];
+i = 0;
+while (i < 5):
+	x[i] = i;
+	i = i + 1;
+
+x[] does not exist after 1st line since empty
+a. 0, 1, 2, 3, 4 
+b. 1, 2, 3, 4, 5
+c. No values
+d. Code will not run 
+d
+
+81. What are the values in list x after the following block finishes running? 
+x = [1,2,3,4,5];
+i = 0;
+while (i < len(x)):
+	x[i] = i;
+	i = i + 1;
+
+a. 0, 1, 2, 3, 4 
+b. 1, 2, 3, 4, 5
+c. 0, 1, 2, 3, 4, 5
+d. Code will not run 
+A
+
+82. What is the output of the following code block? 
+a = [1,2,3];
+b = a;
+a[2] = 0;
+print(b[2]);
+
+a. 0 
+b. 1
+c. 2
+d. 3
+a
+
+83. What is the output of the following code block?
+x = ['a','b','c'];
+x.pop(0);
+print(x);
+
+a. a, b
+b. b, c 
+c. a, b, c
+d. No output
+b
+
+84. What is the result of the following code block? Choose all that apply. 
+x = "a,b,c";
+y = x.split(",");
+
+a. The value of x is changed to "abc". 
+b. The value of x is not changed. 
+c. The value of y is the same as x.
+d. y is a list with 3 elements. 
+b,d
+
+85. A list can contain values of different types. 
+True 
+False
+T
+
+86. What is the output of the following code block?
+a = [[1,2,3,4],[5,6,7,8],[9,10,11,12]];
+
+
+print(a[1]);
+
+a. 1, 2, 3, 4
+b. 5, 6, 7, 8 
+c. 1
+d. 2
+b
+
+87. What is the output of the following code block?
+a = [[1,2,3,4],[5,6,7,8],[9,10,11,12]];
+print(a[1][0]);
+
+a. 1, 2, 3, 4
+b. 5, 6, 7, 8 
+c. 5 
+d. 6
+c
+
+88. Which method is used when passing an array into a function?
+a. Pass by value
+b. Pass by reference 
+b
+
+89. When "passing by value" method is used, a new local variable is created inside the function whose value is the same as the argument. 
+True 
+False
+t
+
+90. When "passing by reference" method is used, the parameter variable points to the memory location where the argument variable is. 
+True 
+False 
+T
+
+91. What is the output of the following code block? 
+a = [1,2,3,4];
+b = 0;
+def changeValue(x, y):
+	x = y[0];
+	y[0] = 10;
+
+changeValue(b,a);
+print(a);
+
+a.1,2,3,4
+b.0,2,3,4
+c.0,1,2,3
+d.10,2,3,4 
+d
+
+Dictionary
+==================================
+92. Which correctly defines a dictionary structure? Choose all that apply. 
+
+a. x = dict() **
+b. x = {"a":1, "b": 2, "c": 3} 
+c. x = ("a":1, "b": 2, "c": 3)
+d. x = dict(a = 1, b = 2, c = 3) 
+abd
+93. The key of a dictionary can be of integer type. 
+True 
+False
+t
+94. The key of a dictionary must be of string type. 
+True
+False 
+f
+
+95. The value of a dictionary cannot be of float type. 
+True
+False 
+f
+
+96. The keys in a dictionary must be unique. 
+True 
+False 
+t
+
+97. The values in a dictionary must be unique. 
+True
+False 
+f
+
+98. You can use index to retrieve a value in a dictionary. 
+True
+False 
+f
+
+99. What is the output of the following code block? 
+x = 1;
+y = 2;
+d = {'a':x, 'b':x, 'c':x,'d':y,'e':y,'f':y};
+print(d['f']);
+
+a. 1 
+b. 2 
+c. a
+d. b
+b
+
+100. What is the output of the following code block? 
+x = 1;
+y = 2;
+d = {x:y, x:y, x:y};
+print(d[y]);
+
+a. 1
+b. 2
+c. 1:2
+d. No output due to error. 
+d
