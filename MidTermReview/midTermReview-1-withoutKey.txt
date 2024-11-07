@@ -1,0 +1,425 @@
+Quiz 1:
+
+Introduction
+=========================
+1. Both single quotes and double quotes are used to enclose a string. 
+T or F
+
+T
+
+2. What is the output of this line: 
+	print('The sign says "Don't enter! ".');
+a. The sign says "Don't enter! ".
+b. The sign says Don't enter!.
+c. 'The sign says "Don't enter! ".'
+d. No output due to error. 
+
+d. single quote in center does not have pair
+
+3. Which starts a single line comment?
+a. # 
+b. *
+c. """
+d. //
+a
+
+4. Which starts a block comment?
+a. //
+b. *
+c. #
+d. """ 
+d
+
+Variables and Expressions
+==========================
+5. What type of variable is created?
+ a = "18";
+
+a. string 
+b. int
+c. float
+d. boolean
+a
+
+6. What type of variable is created? 
+a = True;
+
+a. string
+b. int
+c. float
+d. boolean 
+d
+
+
+7. What type of variable is b?
+a = 2;
+b = a + 3;
+
+a. int 
+b. float
+c. string
+d. boolean
+a
+
+8. What type of variable is a?
+a = 1.7;
+
+a. int
+b. float 
+c. string
+d. boolean
+b
+
+9. what is true about the following? Choose all that apply. 
+a. An int type can always be converted to a float type. 
+b. A float type can always be converted to an int type.
+c. A string type can awlays be converted to a float type.
+d. A string type can be convereted to an int type when possible.
+abd
+
+10. How to read this line? 
+c = a + b;
+a. c gets a plus b  
+b. c is equal to a plus b
+c. c is equal to a and then add b
+d. a plus b is equal to c
+b.
+
+11. What type of operator is the "=" sign? 
+a. assignment operator 
+b. local operator
+c. relational operator
+d. comparison operator
+a
+
+12.  What is the output of the following statement?
+x = "2";
+y = "3";
+z = x + y;
+print(z);
+
+a. 2
+b. 3
+c. 5
+d. 23 
+d
+
+13. What is the output of the following statement?
+newValue = 5;
+newvalue = newValue + 10;
+print(newValue);
+a. 5 
+b. 10
+c. 15
+d. No output
+a
+
+14. Which of the following is an escape character? 
+a. /
+b. \ 
+c. //
+d. \\
+b
+
+15. What is the output of the following statement?
+name = "Nightingale";
+print("The venue's name is \"" + name + "\"!");
+a. The venue's name is "Nightingale"! 
+b. The venue's name is \"Nightingale\"!
+c. The venue's name is Nightingale!
+d. No output due to error
+a.
+
+16. What is the output of the following statement?
+value = 10;
+value = 20;
+print("The value is " + value);
+a. 10
+b. 20
+c. 30
+d. No output due to error. 
+b.
+
+17. What is true about Python "keywords"? Choose all that apply. 
+a. Keywords are part of the Python infrustructure. 
+b. There are a number of keywords in Python. 
+c. You can create a variable whose name is the same as a keyword. 
+d. "for" is a keyword. 
+abd
+
+18. What is true about variables? Choose all that apply. 
+a. A variable has a name. 
+b. A variable has a type. 
+c. Variable names are case-insensitive.
+d. A variable's value can be changed. 
+abcd
+
+19. What is the output of the following statement?
+a = 2**3;
+print(a);
+a. 2
+b. 3
+c. 6
+d. 8 
+d.
+
+20. What is the output of the following statement? 
+a = "b";
+print(a*4);
+a. a4
+b. b4
+c. aaaa
+d. bbbb 
+d.
+
+21. What must be included in a file header? Choose all that apply.
+a. file name 
+b. Purpose of the file 
+c. Author name 
+d. Links and references
+abc
+
+22. Which of the following is considered as professional coding style? Choose all that apply. 
+a. You should comment the purpose of each variable created. 
+b. You should comment the purpose of each code block. 
+c. You should add a line break after each line.  
+d. You should have a file header at the beginning of each file. 
+abd
+
+23. What type of error does the following statement have? 
+x = 22;
+y = 0;
+print("x times y is " x + y);
+
+a. syntax error 
+b. run time error
+c. logic error
+a.
+
+24. What type of error does the following statement have? 
+x = 22;
+y = 0;
+print ("x divided by y is " + str(x/y));
+
+a. syntax error 
+b. run time error  
+c. logic error
+b
+
+25. What type of error does the following statement have? 
+x = 22;
+y = 0;
+print ("x divided by y is " + str(x*y));
+
+a. syntax error 
+b. run time error 
+c. logic error 
+c
+
+Functions and scopes
+===========================
+26. You must first define a function before you call it. 
+T or F
+t
+
+27. A function definition starts with the keyword "define".
+T or F
+F
+
+28. What is true about the "return" value of a function. Choose all that apply.  
+a. A function doesn't have to return a value. 
+b. A function can return any type of value. 
+c. A function can return multiple values. 
+d. The returned value from a function can be used outside the function. 
+abd
+29. A function can take 0 input. 
+T or F
+t
+
+30. A function can take multiple inputs. 
+T or F
+t
+
+31. Which of the following indicates a is a function? 
+a. newValue
+b. newValue[2]
+c. newValue(2) 
+d. newValue*2
+c
+
+32. Which is called an argument in the following statements? 
+x = 2;
+y = 3;
+print(x);
+
+a. x in line 1
+b. y
+c. x in line 3 
+d. No argument can be found. 
+c.
+
+33. Which is called a parameter in the follwing statements? Choose all that apply. 
+def  add(x,y):
+	return x + y;
+
+a = 2;
+b = 3;
+print(add(a, b));
+
+a. x 
+b. y 
+c. a
+d. b
+ab
+
+34. What is the output of the following code block?
+def add(x,y):
+	return x*y;
+
+x = add(2,3);
+print(x);
+
+a. 2
+b. 3
+c. 5
+d. 6 
+d
+
+35. What must be true for this statement to run successfully? Choose all that aplly.
+
+print(math.sqrt(a));
+
+a. The "math" module must be imported. 
+b. "a" must be a numeric value. 
+c. "a" must have a value. 
+d. "a" can be a string type. 
+abc
+
+36. What is true about a variable that can be accessed only inside a function? Choose all that apply. 
+a. It is called a local variable. 
+b. The variable is created inside the function. 
+c. It can be changed to a global variable. 
+d. It cannot have the same name as a variable outside the function. 
+ab
+
+37. What is true about a global variable? Choose all that apply. 
+a. It is created outside of a function. 
+b. It can be used inside a function. 
+c. It cannot use the same name as a local variable. 
+d. Its value can be changed inside a function. 
+abd
+
+38. We should limit the use of global variables. 
+T or F
+T
+39. We should limit the use of local variables. 
+T or F
+F
+40. Whenever a function call is completed, the memory space of all its local variables are freed and ready to be reused. 
+T or F
+idk
+41. Which is a local variable in the following code block? Choose all that apply. 
+x = 2;
+
+def KilotoMile(a):
+	r = a * 1.6;
+	return r ;
+
+print(KiloToMile(x));
+
+a. x
+b. a 
+c. r 
+d. No local variables created. 
+bc
+
+42. Which one is a global variable in the following code block?  
+
+x = 2;
+y = 3;
+def KiloToMile(x):
+	r = x * 1.6;
+	return r;
+
+a. x in line 1 
+b. x in line 3
+b. r
+c. No global variable
+a
+
+43. Which one is a global variable in the following code block? 
+x = 10;
+def KiloToMile():
+    y = 1.6;
+    return x*y;
+
+a. x 
+b. y
+c. both x and y
+d. No global variable 
+a
+
+44. Which one is a global variable in the following code block? 
+x = 10;
+def KiloToMile():
+    x = 11;
+    y = 1.6;
+    return x*y;
+
+a. x in line 1 
+b. x in line 1 and 3
+c. x in line 3
+c. y
+a
+
+45. What is the output of the following code block? 
+x = 9;
+def KiloToMile():
+    global x;
+    x = 10;
+    y = 1.6;
+    return x*y;
+
+KiloToMile();
+print(x);
+
+a. 9
+b. 10 
+c. 1.6
+c. 16
+b
+ 
+Conditional Execution
+===================================
+46. Does this line create a variable of boolean type? 
+x = "True";
+
+a. Yes
+b. No 
+b
+47. Does this line create a variable of boolean type? 
+x = False;
+
+a. Yes 
+b. No
+A
+48. Which of the following creates a boolean type variable?
+a. x = 1;
+b. y = 0;
+c. x = True; 
+d. y = "Boolean";
+c
+
+49. Which of the following means "equal to"?
+a. = 
+b. +
+c. //
+d. == 
+d
+
+49. Which of the following means "not equal to"? 
+a. =
+b. == 
+c. != 
+d. >=
+c

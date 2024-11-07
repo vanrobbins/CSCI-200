@@ -6,13 +6,13 @@
 - [Week 2: Variables Commenting and Debugging/Errors](#week-2-variables-commenting-and-debuggingerrors)
 - [Week 3: Functions](#week-3-functions)
 - [Week 4: Conditionals](#week-4-conditionals)
-- [Week 5](#week-5)
-- [Week 6](#week-6)
-- [Week 7](#week-7)
-- [Week 8](#week-8)
-- [Week 9](#week-9)
-- [Week 10](#week-10)
-- [Week 11](#week-11)
+- [Week 5: Loops](#week-5-loops)
+- [Week 6: Arrays](#week-6-arrays)
+- [Week 7: Dictionaries](#week-7-dictionary)
+- [Mid Term Review](#mid-term-review)
+- [Week 9: Bad Coding Practices](#week-9-coding-practices)
+- [Week 10: Files](#week-10-files)
+- [Week 11: Object Oriented Programming](#week-11-object-oriented-programming)
 - [Week 12](#week-12)
 - [Week 13](#week-13)
 - [Week 14](#week-14)
@@ -47,55 +47,37 @@
 
  [Lab](Week5/Lab)
 
-## Week 5
+## Week 5: Loops
 
  [Demo Files](Week5/DemoFiles/)
 
- [In Class Assignments](Week5/InClass/)
-
  [Lab](Week5/Lab)
 
-## Week 6
+## Week 6: Arrays
 
  [Demo Files](Week6/DemoFiles/)
 
- [In Class Assignments](Week6/InClass/)
-
  [Lab](Week6/Lab)
 
-## Week 7
+## Week 7: Dictionary
 
  [Demo Files](Week7/DemoFiles/)
 
- [In Class Assignments](Week7/InClass/)
+## Mid Term Review
 
- [Lab](Week7/Lab)
+[Review](MidTermReview/)
 
-## Week 8
-
- [Demo Files](Week8/DemoFiles/)
-
- [In Class Assignments](Week8/InClass/)
-
- [Lab](Week8/Lab)
-
-## Week 9
+## Week 9: Coding Practices
 
  [Demo Files](Week9/DemoFiles/)
 
- [In Class Assignments](Week9/InClass/)
-
- [Lab](Week9/Lab)
-
-## Week 10
+## Week 10: Files
 
  [Demo Files](Week10/DemoFiles/)
 
- [In Class Assignments](Week10/InClass/)
-
  [Lab](Week10/Lab)
 
-## Week 11
+## Week 11: Object Oriented Programming
 
  [Demo Files](Week11/DemoFiles/)
 
