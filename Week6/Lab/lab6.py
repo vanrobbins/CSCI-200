@@ -38,6 +38,7 @@ def mainMenu():
             addEmployee();
         elif checkAddOrSearch==2:
             updatedEmployees=employeesWAge();
+            print(updatedEmployees);
             searchEmployee(updatedEmployees);
         elif checkAddOrSearch==3:
             quit();

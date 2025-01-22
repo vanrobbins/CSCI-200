@@ -1,0 +1,45 @@
+# Registrar System Project
+
+## Overview
+
+The **Registrar System** is a modular, role-based command-line application that allows users (Student, Instructor, or Admin) to interact with their respective functionalities. The system directs users to specific scripts based on their role selection, ensuring a clean and efficient design for handling different user roles and their operations.
+
+### Features:
+- **Role-Based Access**: Users can select from three roles: Student, Instructor, or Admin.
+- **Modular Design**: Each user role has its own dedicated directory and script for role-specific functionality.
+- **Menu-Driven**: Users are guided through a menu system to select their role, which redirects them to their corresponding script.
+
+## Project Structure
+RegistrarSystem/
+│
+├── Courses/
+│   └── courseClass.py         # Defines course-related functionality
+│
+├── Users/
+│   ├── Admin/
+│   │   ├── AdminData/
+│   │   │   └── adminLogIn.csv # Stores admin login data
+│   │   ├── adminClass.py      # Defines admin-specific class functionality
+│   │   └── adminExec.py       # Executes admin operations
+│   │
+│   ├── Instructor/
+│   │   ├── instructorClass.py # Defines instructor-specific class functionality
+│   │   └── instructorExec.py  # Executes instructor operations
+│   │
+│   ├── Student/
+│   │   ├── studentClass.py    # Defines student-specific class functionality
+│   │   └── studentExec.py     # Executes student operations
+│   │
+│   └── userClass.py           # Defines shared user functionality (first, last, username)
+│
+├── Utility/
+│   ├── mainExec.py            # Main entry point to the Registrar System
+│   └── mainUtil.py            # Contains utility functions (menu, input validation)
+│
+├── README.md                  # This file
+
+##Admin must run first to create Instructors,Courses,Students
+###Admin Logins
+John,Doe,Doey,Placate123!
+Mark,Robbins,mtr,Surly5656
+Walt,Pinkman,blue,pure991
